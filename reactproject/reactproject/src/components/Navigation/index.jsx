@@ -1,6 +1,6 @@
 import React from "react"
 import "./index.less"
-import CtrlTabs from "../../controls/CtrlTabs"
+import CtrlTabs from "../CtrlTabs"
 
 
 

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css"
+import "./App.less"
 import { Route, Routes } from 'react-router-dom';
 import Page1 from './pages/Page1';
 import Page2 from './pages/Page2';
@@ -7,8 +7,9 @@ import Page3 from './pages/Page3';
 import Page4 from './pages/Page4';
 import Page5 from './pages/Page5';
 import Page6 from './pages/Page6';
-import MyNavLink from './components/blocks/MyNavLink';
+import MyNavLink from './components/MyNavLink';
 import demo from './images/demo.mp4';
+import './index.less' 
 
 
 export default class App extends Component {
@@ -38,9 +39,9 @@ export default class App extends Component {
                         <Route path="/Page6" element={<Page6 />} />
                     </Routes>
                 </div>
-                {/* <div className="div-permanent">
+                <div className="div-permanent">
                     <video src={demo} className="video-demo" controls></video>
-                </div> */}
+                </div>
             </div>
         )
     }

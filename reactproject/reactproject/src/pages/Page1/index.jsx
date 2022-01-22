@@ -3,7 +3,7 @@
 
 import React, { Component } from "react";
 import "./index.less"
-import MyNavLink from '../../components/blocks/MyNavLink';
+import MyNavLink from '../../components/MyNavLink';
 import { Route, Routes } from 'react-router-dom';
 import 'antd/dist/antd.min.css';
 import SousPage1 from './SousPage1';
